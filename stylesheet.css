@@ -1,0 +1,157 @@
+body {
+	background-color: #bfbfbf;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	margin: 0;
+	padding: 10px;
+	background: #A5A5A5;
+	width: relative;
+	overflow: auto;
+	position: relative;
+}
+
+/*
+Styling for the nav bar (lines 17-47)
+*/
+.nav {
+	text-align: center;
+	color: #FFFFFF;
+	font-family: "Helvetica";
+	font-style: italic;
+	font-size: 20px;
+	letter-spacing: 0px;
+	border: 2px solid #515d4b;
+	border: none;
+	padding-bottom: 5px;
+	background: #404040;
+}
+a.navButton{
+	background-color: #737373;
+	border: none;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	display: inline-block;
+}
+a.navButton:hover {
+	webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	background-color: #a6a6a6;
+}
+.logo{
+	width: 130px;
+	height: 134px;
+}
+
+/*
+Styling for the main body containers
+*/
+.title {
+	font-family: "Helvetica";
+	font-size: 40px;
+	color: #404040;
+	margin: 0;
+	text-align: center;
+	padding: 10px;
+	background: #A5A5A5;
+	width: relative;
+}
+
+.content {
+	font-family: "Helvetica";
+	text-align: center;
+	color: #404040;
+	padding: 10px;
+}
+
+.sectionHeading {
+	text-align: left;
+	padding: 10px;
+	background: #A5A5A5;
+	margin: 0;
+}
+
+.section {
+	border: 1px solid #737373;
+	margin-bottom: 30px;
+	overflow: auto;
+	background-color: #CCCCCC;
+	text-align: left;
+}
+
+.description {
+	margin: 5px;
+	margin-right: 0;
+	padding: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+	margin-top: 0;
+	padding: 0;
+}
+
+.sectionImage {
+	float: right;
+	padding: 0;
+	height: 311px;
+	width: 467px;
+	border: 3px solid #737373;
+}
+
+.contactSection {
+	margin-bottom: 30px;
+	overflow: auto;
+	background-color: #CCCCCC;
+	padding:20px;
+}
+
+/*
+Styling for form elements
+*/
+
+form {
+	text-align: left;
+	padding: 10px;
+}
+
+input[type=number]{
+    width: 60px;
+}
+
+button{
+	background-color: #008CBA;
+	border-radius: 4px;
+	color: #FFFFFF;
+	padding: 5px;
+	margin: 2px;
+}
+
+/*
+Styling for embedded map
+*/
+.mapouter{
+	text-align:right;
+	height:343px;
+	width:640px;
+	float: right;
+}
+
+.gmap_canvas {
+	height:343px;
+	width:640px;
+}
+
+/*
+Styling for the table holding business hours
+*/
+
+table.hours {
+	font-family: "Helvetica";
+	text-align: left;
+	color: #404040;
+	padding-left: 20px;
+}
