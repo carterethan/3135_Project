@@ -4,6 +4,12 @@
 
 
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+<script src="services.js"></script>
+
 <title>The Print Co: Services</title>
 
 
@@ -28,31 +34,31 @@
 
 
 <body>
-  <h2 class="title">Services</h2>
-	<div class="content">
+	<h2 class="title">Services</h2>
+	<div class="content" id="accordion">
 
-    <div class="section">
-      <h2 class="sectionHeading">Design</h2>
-      <p class="description"><img src="palette.jpg" class="sectionImage" alt="Design">
-        Whether you're experiencing a creative block or need assistance in creating a brand for your new business,
-         we're at your service. Let one of our expert graphic designers help you achieve your vision with custom designs you'll be proud to show off
-       </p>
-    </div>
+		<h2 class="sectionHeading">Design</h2>
+		<div id="tabs-1">
+			<p class="description"><img src="palette.jpg" class="sectionImage" alt="Design">
+				Whether you're experiencing a creative block or need assistance in creating a brand for your new business,
+				we're at your service. Let one of our expert graphic designers help you achieve your vision with custom designs you'll be proud to show off
+			</p>
+		</div>
 
-    <div class="section">
-      <h2 class="sectionHeading">Digital Printing</h2>
-      <p class="description"><img src="forms.jpg" class="sectionImage" alt="Digital Printing">
-        We will print or duplicate anything on paper. From business cards to multi-page brochures, whatever material and colors you'd like.
+		<h2 class="sectionHeading">Digital Printing</h2>
+		<div id="tabs-2">
+			<p class="description"><img src="forms.jpg" class="sectionImage" alt="Digital Printing">
+				We will print or duplicate anything on paper. From business cards to multi-page brochures, whatever material and colors you'd like.
 
-      </p>
-    </div>
+			</p>
+		</div>
 
-    <div class="section">
-      <h2 class="sectionHeading">Signs & Graphics</h2>
-      <p class="description"><img src="sign.jpg" class="sectionImage" alt="Signs and Graphics">
-        Large scale signs and graphics made from various mediums. Die-cut vinyl graphics that can be applied to signs or windows.
-      </p>
-    </div>
+		<h2 class="sectionHeading">Signs & Graphics</h2>
+		<div id="tabs-3">
+			<p class="description"><img src="sign.jpg" class="sectionImage" alt="Signs and Graphics">
+				Large scale signs and graphics made from various mediums. Die-cut vinyl graphics that can be applied to signs or windows.
+			</p>
+		</div>
 	</div>
 </body>
 
