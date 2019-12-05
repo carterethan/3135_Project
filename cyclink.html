@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en-us">
 
+<head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
 
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+  <link href="css/lightbox.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
 
-<title>Cyclink</title>
+  <script src="cyclink.js"></script>
 
-
-<header>
-  <div class="nav">
-    <img src="logo.webp" class="logo" alt="logo">
-
-    <h1>The Print Company</h1>
-    <div class="links">
-      <a class="navButton" href="index.html">Home</a>
-      &nbsp;
-      <a class="navButton" href="services.html">Services</a>
-      &nbsp;
-      <a class="navButton" href="contact.html">Contact Us</a>
-      &nbsp;
-      <a class="navButton" href="quote.html">Get a Quote</a>
-      &nbsp;
-      <a class="navButton" href="cyclink.html">Cyclink</a>
-    </div>
-  </div>
-</header>
+  <title>Cyclink</title>
+</head>
 
 
 <body>
+  <header>
+    <div class="nav">
+      <img src="logo.webp" class="logo" alt="logo">
+
+      <h1>The Print Company</h1>
+      <div class="links">
+        <a class="navButton" href="index.html">Home</a>
+        &nbsp;
+        <a class="navButton" href="services.html">Services</a>
+        &nbsp;
+        <a class="navButton" href="contact.html">Contact Us</a>
+        &nbsp;
+        <a class="navButton" href="quote.html">Get a Quote</a>
+        &nbsp;
+        <a class="navButton" href="cyclink.html">Cyclink</a>
+      </div>
+    </div>
+  </header>
+
   <h2 class="title">Cyclink</h2>
 
   <div class ="content">
@@ -41,32 +47,24 @@
         Cyclink Apparel can be purchased at various bike shops around Catawba County.<br>
         Feel free to check out some of our designs which can be ordered via Print Co. or purchased at one of the many local businesses that we stock.<br>
       </p>
-      <div class="fotorama" data-nav="thumbs">
-        <img src="shirt1.jpeg">
-        <img src="shirt2.jpeg">
-        <img src="shirt3.jpeg">
-        <img src="shirt4.jpeg">
-        <img src="shirt5.jpeg">
+      <div id="shirts">
       </div>
 
     </div>
   </div>
-</body>
 
-
-<footer>
-  <p>
+  <footer>
     <h1 class="title">Location and Business Hours</h1>
     <div class="mapouter">
       <div class="gmap_canvas">
-        <iframe width="640" height="343" id="gmap_canvas" src="https://maps.google.com/maps?q=301%2010th%20St.%20NW%20Suite%20E-106%2C%20PO%20Box%201615%20Conover%2C%20NC%2028613&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-        </iframe>
+        <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=301%2010th%20St.%20NW%20Suite%20E-106%2C%20PO%20Box%201615%20Conover%2C%20NC%2028613&t=&z=15&ie=UTF8&iwloc=&output=embed">
+				</iframe>
       </div>
     </div>
 
     <table class="hours">
       <tr>
-        <th>Business Hours</th>
+        <th colspan="2">Business Hours</th>
       </tr>
       <tr>
         <td>Monday</td>
@@ -89,8 +87,9 @@
         <td>8AM - 12PM</td>
       </tr>
     </table>
-  </p>
-</footer>
-
-
+    <br><br><br>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  </footer>
+</body>
 </html>

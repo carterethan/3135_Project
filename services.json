@@ -1,0 +1,20 @@
+{"services":[
+	{
+		"name":"Design",
+		"header":"Design Services",
+		"description":"Whether you're experiencing a creative block or need assistance in creating a brand for your new business, we're at your service. Let one of our expert graphic designers help you achieve your vision with custom designs you'll be proud to show off.",
+    "image":"images/palette.jpg"
+	},
+	{
+		"name":"Digital Printing",
+		"header":"Digital Printing Services",
+		"description":"We will print or duplicate anything on paper. From business cards to multi-page brochures, whatever material and colors you'd like.",
+    "image":"images/forms.jpg"
+	},
+	{
+		"name":"Signs & Graphics",
+		"header":"Signs & Graphics Printing",
+		"description":"We offer large scale signs and graphics made from various mediums and die-cut vinyl graphics that can be applied to signs or windows.",
+    "image":"images/sign.jpg"
+	}
+]}
