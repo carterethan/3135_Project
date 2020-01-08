@@ -9,7 +9,9 @@ $(document).ready(function(){
     },
     dataType: "json",
     success: function(data){
+      //For each element in json, append data to accordion
       $.each(data.services, function(i, item) {
+        //Populate accordion
         $(".content").append(
           "<h2 class=\"sectionHeading\">" + data.services[i].name + "</h2>" +
           "<div id=\"tabs-" + (i + 1) + "\">" +
@@ -20,6 +22,7 @@ $(document).ready(function(){
           "</div>"
         );
       });
+      //Code to start Jquery UI accordion
       $("#accordion").accordion(
         {
           event: "click",

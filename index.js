@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // Code for bxSlider
     $("#slider").bxSlider({
         auto: true,
         slideWidth: 500,
